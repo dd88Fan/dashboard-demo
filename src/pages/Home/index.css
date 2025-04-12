@@ -1,0 +1,28 @@
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  background: #1890ff !important;
+  color: white !important;
+}
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-picker-dropdown.highlight-month .ant-picker-cell::before{
+    top:25% !important
+}
+.query-style,.charts-style{
+   
+}
+.query-style{
+    background: white;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.chart-list{
+    padding: 20px;
+    background: white;
+    text-align: center;
+}
+h2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-bottom: 20px;
+}
