@@ -3,6 +3,8 @@ import { createBrowserRouter, Navigate } from 'react-router-dom'
 import Layout from '../pages/layout'
 import Home from '../pages/Home'
 import CostAnalysis from '../pages/CostAnalysis'
+import UserAnalysis from '../pages/UserAnalysis'
+import PerformanceAnalysis from '../pages/PerformanceAnalysis'
 
 const routes = [
   {
@@ -19,8 +21,16 @@ const routes = [
         Component: Home
       },
       {
+        path: 'performanceAnalysis',
+        Component: PerformanceAnalysis
+      },
+      {
         path: 'costAnalysis',
         Component: CostAnalysis
+      },
+      {
+        path: 'userAnalysis',
+        Component: UserAnalysis
       }
     ]
   }

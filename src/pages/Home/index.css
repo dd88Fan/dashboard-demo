@@ -6,9 +6,7 @@
 :where(.css-dev-only-do-not-override-1d4w9r2).ant-picker-dropdown.highlight-month .ant-picker-cell::before{
     top:25% !important
 }
-.query-style,.charts-style{
-   
-}
+
 .query-style{
     background: white;
     margin-bottom: 10px;
