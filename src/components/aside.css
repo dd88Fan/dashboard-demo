@@ -1,0 +1,6 @@
+.ant-layout-sider-collapsed{
+    width: 0px !important;
+    flex: 0 0 0px !important;
+    max-width: 0px !important;
+    min-width: 0px!important;
+}
